@@ -67,4 +67,4 @@ conda activate GWAS-PIPELINE
 ```
 vcftools --vcf filtered_snpsHanXRQr2.0.vcf --freq --out allele_frequencies
 ```
-Файл с частотами аллелей приложен в репозитории
+Файл с частотами аллелей приложен в репозитории: https://github.com/erofeeva-plastilin/Massive-haplotypes-underlie-ecotypic-differentiation-in-sunflowers/blob/main/allele_frequencies.frq
