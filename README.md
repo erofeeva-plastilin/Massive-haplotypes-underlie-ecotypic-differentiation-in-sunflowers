@@ -73,3 +73,8 @@ EMMAX использует файл .tped для хранения информа
 
 ![image](https://github.com/user-attachments/assets/371eea0b-e132-4601-bd64-a576e58ad8e8)
 
+Для фильтрации мощности:
+```
+awk -F',' '$2 == 45111025 || $2 == 8243444 || $2 == 4467336 || $2 == 21801953 || $2 == 165672035' DTB.csv > DTB.txt
+```
+Ссылка на финальную таблицу: https://docs.google.com/spreadsheets/d/11D7-WJqfNM710nf4aFO29UhfeMguLUZKwjyEQFpdTlo/edit?gid=1270894803#gid=1270894803
