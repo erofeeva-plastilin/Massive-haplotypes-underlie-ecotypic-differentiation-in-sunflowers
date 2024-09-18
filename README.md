@@ -70,3 +70,5 @@ vcftools --vcf filtered_snpsHanXRQr2.0.vcf --freq --out allele_frequencies
 Файл с частотами аллелей приложен в репозитории: https://github.com/erofeeva-plastilin/Massive-haplotypes-underlie-ecotypic-differentiation-in-sunflowers/blob/main/allele_frequencies.frq
 
 EMMAX использует файл .tped для хранения информации о генотипах, и в аддитивной модели она кодирует аллели числами (1 и 2). Эффектный аллель в модели — это тот, который закодирован как 2 в файле .tped. Это обычно соответствует мажорному аллелю, то есть тому, который встречается чаще в популяции.
+
+![image](https://github.com/user-attachments/assets/eef6d590-f541-460e-b748-2d166002fd5e)
