@@ -56,3 +56,15 @@ End: 20240918_132128
 real    1m27.172s  
 user    0m32.662s  
 sys     0m24.950s  
+
+## Считаем частоты аллелей
+Активация среды, где есть vcftools:
+```
+source ~/.bashrc
+conda activate GWAS-PIPELINE
+```
+Подсчет частоты аллелей:
+```
+vcftools --vcf filtered_snpsHanXRQr2.0.vcf --freq --out allele_frequencies
+```
+Файл с частотами аллелей приложен в репозитории
