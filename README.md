@@ -20,8 +20,8 @@ bcftools view -R pos.txt -o filtered_snps.vcf -O v Annuus.ann_gwas.tranche90_snp
 * Trichomes density vein average  
 Сравнила образцы в VCF файле и образцы, для которых было сделано фенотипирование, они идентичны, в обоих файлах представлено 614 линий
 
-### Перенос на другую сборку
-## Скачивание сборки Ha412HOv2.0
+## Перенос на другую сборку
+### Скачивание сборки Ha412HOv2.0
 ```
 wget https://ubc-sunflower-genome.s3.amazonaws.com/references/HA412/genome/Ha412HOv2.0-20181130.fasta
 ```
