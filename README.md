@@ -127,10 +127,10 @@ awk -F',' '$2 == 9786450' SPE.csv > SPE.txt
 ```
 
 ![image](https://github.com/user-attachments/assets/c6d3aae2-1f4d-4778-8a73-99a8a81a8ceb)  
-Цветом обозначены частоты аллелей (красный - мажорная, синий - минорная), в столюце beta1 зеленым обозначен эффект больше 5.  
+**Цветом обозначены частоты аллелей (красный - мажорная, синий - минорная), в столбце beta1 зеленым обозначен эффект больше 5.**  
 
 ![image](https://github.com/user-attachments/assets/7a1762d4-30f2-4fc0-a3fb-ac74373d2ba8)  
-Пропущенные SNP  
+**Пропущенные SNP**  
 
 Результаты фильтрации и поиска бета 1 в папке: https://github.com/erofeeva-plastilin/Massive-haplotypes-underlie-ecotypic-differentiation-in-sunflowers/tree/main/Phenotype  
 Ссылка на финальную таблицу: https://docs.google.com/spreadsheets/d/11D7-WJqfNM710nf4aFO29UhfeMguLUZKwjyEQFpdTlo/edit?gid=1270894803#gid=1270894803   
