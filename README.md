@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/16fc3cb1-9d8d-45e7-b302-5530ef68f61b)![image](https://github.com/user-attachments/assets/9262c214-390f-42b2-8e26-8eda81a99bba)![image](https://github.com/user-attachments/assets/ec0ddc11-7d5b-4910-b501-76ec2d85f467)![image](https://github.com/user-attachments/assets/59259322-00bc-44a9-9989-a9d6af91206d)![image](https://github.com/user-attachments/assets/9b691de2-6115-4ca3-967b-6b525c20b63c)# Massive-haplotypes-underlie-ecotypic-differentiation-in-sunflowers
+# Massive-haplotypes-underlie-ecotypic-differentiation-in-sunflowers
 ## Подготовительный этап
 ### Скачивание VCF и индексного файла
 ```
@@ -126,4 +126,8 @@ awk -F',' '$2 == 131245450' TR2.csv > TR2.txt
 awk -F',' '$2 == 9786450' SPE.csv > SPE.txt
 ```
 
+![image](https://github.com/user-attachments/assets/c6d3aae2-1f4d-4778-8a73-99a8a81a8ceb)
+Цветом обозначены частоты аллелей (красный - мажорная, синий - минорная), в столюце beta1 зеленым обозначен эффект больше 5.
+
+Результаты фильтрации и поиска бета 1 в папке: https://github.com/erofeeva-plastilin/Massive-haplotypes-underlie-ecotypic-differentiation-in-sunflowers/tree/main/Phenotype
 Ссылка на финальную таблицу: https://docs.google.com/spreadsheets/d/11D7-WJqfNM710nf4aFO29UhfeMguLUZKwjyEQFpdTlo/edit?gid=1270894803#gid=1270894803
