@@ -1,4 +1,4 @@
-# Massive-haplotypes-underlie-ecotypic-differentiation-in-sunflowers
+![image](https://github.com/user-attachments/assets/16fc3cb1-9d8d-45e7-b302-5530ef68f61b)![image](https://github.com/user-attachments/assets/9262c214-390f-42b2-8e26-8eda81a99bba)![image](https://github.com/user-attachments/assets/ec0ddc11-7d5b-4910-b501-76ec2d85f467)![image](https://github.com/user-attachments/assets/59259322-00bc-44a9-9989-a9d6af91206d)![image](https://github.com/user-attachments/assets/9b691de2-6115-4ca3-967b-6b525c20b63c)# Massive-haplotypes-underlie-ecotypic-differentiation-in-sunflowers
 ## Подготовительный этап
 ### Скачивание VCF и индексного файла
 ```
@@ -77,4 +77,53 @@ EMMAX использует файл .tped для хранения информа
 ```
 awk -F',' '$2 == 45111025 || $2 == 8243444 || $2 == 4467336 || $2 == 21801953 || $2 == 165672035' DTB.csv > DTB.txt
 ```
+```
+awk -F',' '$2 == 132685321 || $2 == 139514388 || $2 == 9666517 || $2 == 29938959 || $2 == 165672035' TLN.csv > TLN.txt
+```
+```
+awk -F',' '$2 == 45111025 || $2 == 181210680 || $2 == 118850933 || $2 == 135718758 || $2 == 136571815 || $2 == 165672035 || $2 == 23872475 || $2 == 55053233' DTF.csv > DTF.txt
+```
+```
+awk -F',' '$2 == 196972495' IL.csv > IL.txt
+```
+```
+awk -F',' '$2 == 9551550 || $2 == 65929716' LeafcurvedHeightmaxWidth.csv > LeafcurvedHeightmaxWidth.txt
+```
+```
+awk -F',' '$2 == 123950977 || $2 == 37030734 || $2 == 21801953 || $2 == 165672035 || $2 == 23872475' Primary_branches.csv > Primary_branches.txt
+```
+```
+awk -F',' '$2 == 180416349 || $2 == 165672035 || $2 == 132367715' Plant_height_at_flowering.csv > Plant_height_at_flowering.txt
+```
+```
+awk -F',' '$2 == 124117180 || $2 == 24390217 || $2 == 146135316 || $2 == 180697556 || $2 == 28829950' LIR.csv > LIR.txt
+```
+```
+awk -F',' '$2 == 124355109 || $2 == 158100889 || $2 == 65929716 || $2 == 2652319' LSIE_I.csv > LSIE_I.txt
+```
+```
+awk -F',' '$2 == 84015571' LSIE_II.csv > LSIE_II.txt
+```
+```
+awk -F',' '$2 == 35358089 || $2 == 140484458' LTC.csv > LTC.txt
+```
+```
+awk -F',' '$2 == 86877790' PMVC.csv > PMVC.txt
+```
+```
+awk -F',' '$2 == 5457435 || $2 == 125298226' RGB.csv > RGB.txt
+```
+```
+awk -F',' '$2 == 29970141 || $2 == 52031318 || $2 == 194869668' TR.csv > TR.txt
+```
+```
+awk -F',' '$2 == 143795931' TR1.csv > TR1.txt
+```
+```
+awk -F',' '$2 == 131245450' TR2.csv > TR2.txt
+```
+```
+awk -F',' '$2 == 9786450' SPE.csv > SPE.txt
+```
+
 Ссылка на финальную таблицу: https://docs.google.com/spreadsheets/d/11D7-WJqfNM710nf4aFO29UhfeMguLUZKwjyEQFpdTlo/edit?gid=1270894803#gid=1270894803
